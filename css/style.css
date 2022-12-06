@@ -1,0 +1,47 @@
+body {
+    background: white;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    
+}
+h1 {
+    /*! color: purple; */
+    /*! background: yellow; */
+    font-size: 40px;
+}
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    
+}
+.list {
+    padding: 40px;
+    border: 1px solid grey;
+}
+.list.warnings {
+    background: yellow;
+}
+
+
+.important {
+    font-weight: 900;
+    text-decoration: underline;
+    font-size: 2em;
+    color: red;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: red;
+  }
+}
+
+
+/*
+To Do:
+Animation!
+*/
